@@ -1,12 +1,9 @@
-[submodule "gears/zakhar_core"]
-	path = gears/zakhar_core
-	url = git@github.com:an-dr/zakhar_core.git
-[submodule "gears/zakhar-face-module"]
-	path = gears/zakhar-face-module
-	url = git@github.com:an-dr/zakhar-face-module.git
 [submodule "gears/zakhar_platform"]
 	path = gears/zakhar_platform
 	url = git@github.com:an-dr/zakhar_platform.git
-[submodule "gears/zakhar_sensors"]
-	path = gears/zakhar_sensors
-	url = git@github.com:an-dr/zakhar_sensors.git
+[submodule "gears/zakhar_brain"]
+	path = gears/zakhar_brain
+	url = git@github.com:an-dr/zakhar_brain.git
+[submodule "gears/zakhar_io"]
+	path = gears/zakhar_io
+	url = git@github.com:an-dr/zakhar_io.git
