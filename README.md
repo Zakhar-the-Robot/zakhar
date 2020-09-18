@@ -49,27 +49,30 @@ Smaller related repositories:
 
 ## Milestones
 
-1. ✅ [Reptile Demo](https://github.com/an-dr/zakhar/releases/tag/reptile_demo)
-    - [done] Afraid of birds
-    - [done] Panics when afraid
-2. ✅ Zakharos - moving the core to the [ROS](https://www.ros.org/)
-    - [done] The Reptile Demo with ROS
-    - [done] Moving platform update using ESP32 with Bluetooth communication
-3. 🟧 Emotions Demo
-    - Added a distance sensor to The Sensor platform. Update MCU to ESP32
-    - Claustrophobia - freeze and shiver if closed barrier and dark, instinct
-    - Conditioned response - the more claustrophobia situations, the more afraid the darkness, connecting darkness with claustrophobia
-    - Implementing Emotions - behavior modificators, the more Conditioned response taught, the worse mood in response to the darkness
-4. ⬜ The heat of passion demo
-    - If got hit weak - angry
-    - If got hit strong - panics
+There are two types of milestones, with and without demonstration. Demonstrations intended to show important to the project features followed by an article, milestones without demonstrations mainly focused on technical part of the project
 
-### Future plans
-
-- Zakha_rosV
-    - Visual recognition
-- ZakhaR.Giskard
-    - Conditional and unconditional reflexes
+1. ✅ [Reptile Demo](https://github.com/an-dr/zakhar/releases/tag/reptile_demo) - implementing of a simple reptile instinct
+    - Article: [Robot with the Conscious: Imitating animal behavior for reducing user’s anxiety](https://blog.agramakov.me/2020/05/29/robot-with-the-conscious/)
+2. ✅ [Zakharos](https://github.com/an-dr/zakhar/releases/tag/zakharos) - moving the core to the [ROS](https://www.ros.org/)
+3. 🟧 Emotions Demo - emotions and reflexes
+    - New Features:
+        - [wip] Implementing Emotions - behavior modificators, the more Conditioned response taught, the worse mood in response to the darkness
+        - Claustrophobia - freeze and shiver if closed barrier and dark (instinct, unconditioned response)
+        - Conditioned response - growing amount of claustrophobia situations leads to afraid the darkness, connecting darkness with claustrophobia
+    - HW update:
+        - Add a distance sensor to The Sensor platform.
+        - Update Sensor MCU to ESP32
+4. ⬜ ZakhaR.Giskard (Note: R.Giskard is a robot from novels by I.Asimov which could control human's emotions) - Further development of using conditioned and unconditioned responses
+    - New Features:
+        - If got hit weak - angry
+        - If got hit strong - panics
+        - Using the camera for detecting dark spots to hide
+    - HW update:
+        - Replace I2C with CANbus
+5. ⬜ Animal Demo - showing the robot to users and collecting responses for making conclusions of this iteration
+    - New Features:
+        - Add any useful for user function
+        - Visual recognition
 
 ## License
 
