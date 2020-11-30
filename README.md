@@ -74,6 +74,10 @@ There are two types of milestones, with and without demonstration. Demonstration
         - Add any useful for user function
         - Visual recognition
 
+## Internal standards
+
+- [ZakharI2C](docs/i2c.md)
+
 ## License
 
 This work is licensed under the terms of the GPLv3 license.
