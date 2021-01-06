@@ -76,7 +76,8 @@ There are two types of milestones, with and without demonstration. Demonstration
 
 ## Internal standards
 
-- [ZakharI2C](docs/i2c.md)
+- [I2C devices](docs/devices.md)
+- [ZakharI2C standard](docs/i2c.md)
 
 ## License
 

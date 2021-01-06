@@ -1,5 +1,7 @@
 # ZakharI2C
 
+[Back to README](../README.md)
+
 This file describes I2C communication used by Zakhar's systems
 
 ## Basic description
@@ -11,7 +13,6 @@ This file describes I2C communication used by Zakhar's systems
 - Read and write operations are described bellow
 
 ## Registers
-
 
 Minimal register map:
 
@@ -48,7 +49,6 @@ To write data master should consequently:
 - Send Stop state
 
 <img src="i2c/Write.svg" width="600"/>
-
 
 ## Command writing process
 
