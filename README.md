@@ -22,6 +22,30 @@ Suggested to split the program into three parts:
 
 ## Structure
 
+### Hardware
+
+Zakhar consists of 4 devices:
+
+- Brain Platform ([source](https://github.com/an-dr/zakhar_brain))
+- Face Module ([source](https://github.com/an-dr/zakhar-face-module))
+- Moving Platform ([source](https://github.com/an-dr/zakhar_platform))
+- Sensor Platform ([source](https://github.com/an-dr/zakhar_sensors))
+
+Each platform has it's own battery and can work standalone. It's structures are represented on pictures bellow.
+
+<img src="assets/device_network/zakhar.svg" width="700">
+
+<img src="assets/device_network/brain_platform.svg" width="700">
+
+<img src="assets/device_network/moving_platform.svg" width="700">
+
+<img src="assets/device_network/face_module.svg" width="700">
+
+<img src="assets/device_network/sensor_platform.svg" width="700">
+
+
+### Repositories
+
 The hugest parts of the project called gears. Currently there are 3 gears that divided into smaller parts:
 
 - [zakhar_io](https://github.com/an-dr/zakhar_io) - interaction
@@ -33,12 +57,18 @@ The hugest parts of the project called gears. Currently there are 3 gears that d
     - [zakhar_service: Software for service purposes](https://github.com/an-dr/zakhar_service)
 - [zakhar_platform](https://github.com/an-dr/zakhar_platform) - moving (ESP32-powered motorized platform)
 
-Smaller related repositories:
+Other related repositories:
 
+- [zakhar_docker: Docker files with Zakhar environment](https://github.com/an-dr/zakhar_docker)
 - [zakhar_faces: Zakhar's facial expressions](https://github.com/an-dr/zakhar_faces)
 - [zakhar_kicadlib: Library with components for Zakhar project](https://github.com/an-dr/zakhar_kicadlib)
 - [zakhar_proto: Repository for experiments and prototyping. Part of the Zakhar project](https://github.com/an-dr/zakhar_proto)
 - [r_giskard: Small project for experiments with unconditioned and conditioned reflexes](https://github.com/an-dr/r_giskard)
+
+## Internal standards
+
+- [I2C devices](docs/devices.md)
+- [ZakharI2C standard](docs/i2c.md)
 
 ## Related articles
 
@@ -55,29 +85,11 @@ There are two types of milestones, with and without demonstration. Demonstration
     - Article: [Robot with the Conscious: Imitating animal behavior for reducing user’s anxiety](https://blog.agramakov.me/2020/05/29/robot-with-the-conscious/)
 2. ✅ [Zakharos](https://github.com/an-dr/zakhar/releases/tag/zakharos) - moving the core to the [ROS](https://www.ros.org/)
 3. 🟧 Emotions Demo - emotions and reflexes
-    - New Features:
-        - [wip] Implementing Emotions - behavior modificators, the more Conditioned response taught, the worse mood in response to the darkness
-        - Claustrophobia - freeze and shiver if closed barrier and dark (instinct, unconditioned response)
-        - Conditioned response - growing amount of claustrophobia situations leads to afraid the darkness, connecting darkness with claustrophobia
-    - HW update:
-        - Add a distance sensor to The Sensor platform.
-        - Update Sensor MCU to ESP32
 4. ⬜ ZakhaR.Giskard (Note: R.Giskard is a robot from novels by I.Asimov which could control human's emotions) - Further development of using conditioned and unconditioned responses
-    - New Features:
-        - If got hit weak - angry
-        - If got hit strong - panics
-        - Using the camera for detecting dark spots to hide
-    - HW update:
-        - Replace I2C with CANbus
 5. ⬜ Animal Demo - showing the robot to users and collecting responses for making conclusions of this iteration
-    - New Features:
-        - Add any useful for user function
-        - Visual recognition
 
-## Internal standards
+[Details...](docs/future.md)
 
-- [I2C devices](docs/devices.md)
-- [ZakharI2C standard](docs/i2c.md)
 
 ## License
 
