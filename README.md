@@ -20,9 +20,28 @@ Suggested to split the program into three parts:
 
 **Reflexes** are small algorithms that can monopolize Unconscious from Conscious in some very explicit situations. E.g. panic and fear if something breaking, convulsions if robot stuck and can't move as the conscious tells.
 
+## Attention: DEVELOPERS WANTED
+
+The project is ambitious, and I cannot move it that fast as I want to. If you are as interested in robotics as I am, let's try to work together. I'm confident that we will develop something unique.
+
+The project covers many different areas and programming languages, including:
+
+- 3D modeling (for simulation)
+- 3D printing (for the robot itself)
+- C / C ++ development (embedded: Arduino, ESP32, STM32; hi-level: Linux, Robot Operating System - ROS)
+- Computer vision (image recognition, especially for indoor navigation)
+- Hardware design (robot modules)
+- Python development (Robot Operating System - ROS)
+
+Please look at the [list of repositories](#repositories) and non-green [milestones](#milestones) below, see the issues, and take something if you want. If you want to participate but do not know where to start, create an issue in this repository, and we will figure this out.
+
+**Any volunteer participation will be appreciated!**
+
 ## Structure
 
 ### Hardware
+
+`TODO: replace with CAN bus devices`
 
 Zakhar consists of 4 devices:
 
@@ -85,12 +104,10 @@ There are two types of milestones, with and without demonstration. Demonstration
 1. ✅ [Reptile Demo](https://github.com/an-dr/zakhar/releases/tag/reptile_demo) - implementing of a simple reptile instinct
     - Article: [Robot with the Conscious: Imitating animal behavior for reducing user’s anxiety](https://blog.agramakov.me/2020/05/29/robot-with-the-conscious/)
 2. ✅ [Zakharos](https://github.com/an-dr/zakhar/releases/tag/zakharos) - moving the core to the [ROS](https://www.ros.org/)
-3. 🟧 Emotions Demo - emotions and reflexes
-4. ⬜ ZakhaR.Giskard (Note: R.Giskard is a robot from novels by I.Asimov which could control human's emotions) - Further development of using conditioned and unconditioned responses
-5. ⬜ Animal Demo - showing the robot to users and collecting responses for making conclusions of this iteration
-
-[Details...](docs/future.md)
-
+3. 🟧 [ZakharCAN](https://github.com/users/an-dr/projects/3/views/1) - Replace I2C with CAN bus protocol. Construction and stability improvements.
+4. ⬜ [Emotions Demo](https://github.com/users/an-dr/projects/4/views/1) - emotions and reflexes
+5. ⬜ [ZakhaR.Giskard](https://github.com/users/an-dr/projects/5/views/1) (Note: R.Giskard is a robot from novels by I.Asimov which could control human's emotions) - Further development of using conditioned and unconditioned responses
+6. ⬜ Animal Demo - showing the robot to users and collecting responses for making conclusions of this iteration
 
 ## License
 
@@ -114,5 +131,6 @@ Any amount will motivate me to develop the project. Thanks in advance!
 <img src="assets/logo-light.png" width="250">
 
 - [Main project's page (on hackaday.io)](http://zakhar.agramakov.me/)
+- [Facebook](https://www.facebook.com/groups/zakhar)
 - [Instagram](https://www.instagram.com/zakhar_the_robot/)
 - [Project's how-to on hackster.io (WIP)](https://www.hackster.io/an-dr/zakhar-the-robot-0d8744)

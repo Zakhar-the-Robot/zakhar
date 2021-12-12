@@ -1,9 +1,0 @@
-[submodule "gears/zakhar_platform"]
-	path = gears/zakhar_platform
-	url = git@github.com:an-dr/zakhar_platform.git
-[submodule "gears/zakhar_brain"]
-	path = gears/zakhar_brain
-	url = git@github.com:an-dr/zakhar_brain.git
-[submodule "gears/zakhar_io"]
-	path = gears/zakhar_io
-	url = git@github.com:an-dr/zakhar_io.git
