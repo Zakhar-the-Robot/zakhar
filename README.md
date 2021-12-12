@@ -69,6 +69,7 @@ Other related repositories:
 
 - [I2C devices](docs/devices.md)
 - [ZakharI2C standard](docs/i2c.md)
+- [ZakharCAN standard](docs/canbus.md)
 
 ## Related articles
 
