@@ -1,0 +1,23 @@
+name: Deploy Site
+on:
+  push:
+    branches:
+      - main
+      - github-pages
+      - feature/hugo_pages
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Git checkout
+        uses: actions/checkout@v2
+        
+      - name: 📰 Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          # cname: blog.agramakov.me # Or anything else
+          # branch: gh-pages # Or anything else
+          args: --minify
+          siteDir: ${{ github.workspace }}/docs_src
+          # Use this if your site isn't in the root of your repo.
