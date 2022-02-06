@@ -1,0 +1,21 @@
+name: Deploy Site
+on:
+  push:
+    branches:
+      - main
+      - docs/hugo_page
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Git checkout
+        uses: actions/checkout@v2
+        
+      - name: 📰 Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          # cname: zakhar.agramakov.me
+          args: --minify
+          siteDir: ${{ github.workspace }}/docs_src
+          submodules: true
