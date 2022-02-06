@@ -4,7 +4,7 @@ on:
     branches:
       - main
       - github-pages
-      - feature/hugo_pages
+      - feature/hugo_page
 jobs:
   deploy:
     runs-on: ubuntu-latest
