@@ -1,4 +1,0 @@
-baseURL = 'https://an-dr.github.io/zakhar/'
-languageCode = 'en-us'
-title = 'Zakhar the Robot Project'
-theme = "hugo-book"

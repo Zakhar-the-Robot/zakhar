@@ -1,0 +1,7 @@
+baseURL: 'https://an-dr.github.io/zakhar/'
+languageCode: 'en-us'
+title: 'Zakhar the Robot'
+theme: "hugo-book"
+
+showLicense: true # Enable or disable license for all post
+showToc: true # Enable or disable ToC for all post

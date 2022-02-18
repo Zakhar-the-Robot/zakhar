@@ -1,0 +1,10 @@
+disableDarkImage: true
+# mainSections: pages
+
+showLicenseInFooter: true
+license: "GPLv3"
+licenseLink: https://www.gnu.org/licenses/gpl-3.0.en.html
+
+author: Andrei Gramakov
+toc: true # Enable Table of Contents
+pager: true # Show pager navigation (prev/next links) at the bottom of pages if true

@@ -1,0 +1,16 @@
+nav:
+- identifier: main
+  name: main page
+  url: "https://blog.agramakov.me"
+  weight: -110
+
+link:
+- identifier: about
+  name: About me
+  url: https://agramakov.me
+  weight: -110
+
+- identifier: zakhar
+  name: Zakhar on hackaday.io
+  url: https://zakhar.agramakov.me
+  weight: -110
