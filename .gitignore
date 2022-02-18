@@ -1,1 +1,2 @@
-/prototyping/moving_platform/tacho_reader/build/
+**/build/
+*.lock
