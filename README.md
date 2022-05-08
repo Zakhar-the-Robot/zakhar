@@ -1,8 +1,10 @@
 # Zakhar the Robot
 
-[![Main - Page](https://img.shields.io/badge/Project-Zakhar%20the%20Robot-blue)](https://github.com/Zakhar-the-Robot "See the project on Github") [![View - Documentation](https://img.shields.io/badge/Documentation-orange)](https://zakhar-the-robot.github.io/doc "Go to Documentation")
+[![Main - Page](https://img.shields.io/badge/Project-Zakhar%20the%20Robot-yellow)](https://github.com/Zakhar-the-Robot "See project sources on Github") [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0 "Read the license") [![View - Documentation](https://img.shields.io/badge/Documentation-orange)](https://zakhar-the-robot.github.io/doc "Go to the documentation")
 
 Mono-repository of the Zakhar the Robot project.
+
+[Project main page / Documentation](https://zakhar-the-robot.github.io/doc)
 
 ## Copyrights
 
